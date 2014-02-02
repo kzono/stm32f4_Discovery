@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.3 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=blink.map -O0 --gc-sections -LG:\cross\CoIDE\configuration\ProgramData\blink -TG:\cross\CoIDE\configuration\ProgramData\blink/link.ld -g">
+      <target file="blink.elf" lastModified="143ee1ca1c3">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="143eddaaacc"/>
+         <source file="..\obj\main.o" lastModified="143eddaaaf9"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="143eddaab46"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="143eddaab81"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="143eddaabb0"/>
+      </target>
+   </processor>
+</history>
