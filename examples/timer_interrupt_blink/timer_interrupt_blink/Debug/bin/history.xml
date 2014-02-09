@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.3 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=timer_interrupt_blink.map -O0 --gc-sections -LG:\cross\CoIDE\configuration\ProgramData\timer_interrupt_blink -TG:\cross\CoIDE\configuration\ProgramData\timer_interrupt_blink/link.ld -g">
+      <target file="timer_interrupt_blink.elf" lastModified="1440d5b71d6">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="1440d5b6e1b"/>
+         <source file="..\obj\main.o" lastModified="1440d5b6e6d"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="1440d5b6eb7"/>
+         <source file="..\obj\stm32f4xx_it.o" lastModified="1440d5b6ee1"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="1440d5b6f1b"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="1440d5b6f47"/>
+         <source file="..\obj\misc.o" lastModified="1440d5b6f74"/>
+         <source file="..\obj\stm32f4xx_tim.o" lastModified="1440d5b6ffe"/>
+      </target>
+   </processor>
+</history>
