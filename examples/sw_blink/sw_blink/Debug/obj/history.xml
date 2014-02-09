@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.7.3 i686-pc-cygwin -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\Projects\STM32F4_Discovery\examples -IF:\Projects\STM32F4_Discovery\examples\sw_blink\cmsis_lib\include -IF:\Projects\STM32F4_Discovery\examples\sw_blink\cmsis_boot -IF:\Projects\STM32F4_Discovery\examples\sw_blink\cmsis_lib -IF:\Projects\STM32F4_Discovery\examples\sw_blink -IF:\Projects\STM32F4_Discovery\examples\sw_blink\cmsis">
+      <target file="stm32f4xx_rcc.o" lastModified="143f10090b5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="143f0e70cbf"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="143f1009119">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="143f0e70c8b"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="143f10090ee">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="143f0e70c6c"/>
+      </target>
+      <target file="main.o" lastModified="143f100906e">
+         <source file="..\..\..\main.c" lastModified="143f1008ed5"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="143f1009042">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="143f0e70c78"/>
+      </target>
+   </processor>
+</history>

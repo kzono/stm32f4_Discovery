@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.6.3 -mcpu=cortex-m4 -mthumb -g -nostartfiles -Map=sw_blink.map -O0 --gc-sections -LG:\cross\CoIDE\configuration\ProgramData\sw_blink -TG:\cross\CoIDE\configuration\ProgramData\sw_blink/link.ld -g">
+      <target file="sw_blink.elf" lastModified="143f10092d2">
+         <source file="..\obj\startup_stm32f4xx.o" lastModified="143f1009042"/>
+         <source file="..\obj\main.o" lastModified="143f100906e"/>
+         <source file="..\obj\stm32f4xx_rcc.o" lastModified="143f10090b5"/>
+         <source file="..\obj\stm32f4xx_gpio.o" lastModified="143f10090ee"/>
+         <source file="..\obj\system_stm32f4xx.o" lastModified="143f1009119"/>
+      </target>
+   </processor>
+</history>

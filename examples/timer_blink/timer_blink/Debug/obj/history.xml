@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="arm-none-eabi-gcc 4.7.3 i686-pc-cygwin -mcpu=cortex-m4 -mthumb -Wall -ffunction-sections -g -O0 -c -DSTM32F407VG -DSTM32F4XX -DUSE_STDPERIPH_DRIVER -D__ASSEMBLY__ -IF:\Projects\STM32F4_Discovery\examples -IF:\Projects\STM32F4_Discovery\examples\timer_blink -IF:\Projects\STM32F4_Discovery\examples\timer_blink\cmsis_boot -IF:\Projects\STM32F4_Discovery\examples\timer_blink\cmsis -IF:\Projects\STM32F4_Discovery\examples\timer_blink\cmsis_lib -IF:\Projects\STM32F4_Discovery\examples\timer_blink\cmsis_lib\include">
+      <target file="stm32f4xx_tim.o" lastModified="143fcf6b2df">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_tim.c" lastModified="143f104f657"/>
+      </target>
+      <target file="stm32f4xx_rcc.o" lastModified="143fcf6b1bb">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_rcc.c" lastModified="143f103d686"/>
+      </target>
+      <target file="system_stm32f4xx.o" lastModified="143fcf6b221">
+         <source file="..\..\..\cmsis_boot\system_stm32f4xx.c" lastModified="143f103d672"/>
+      </target>
+      <target file="timer_blink.o" lastModified="143fcf6b251">
+         <source file="..\..\..\..\blinkLED\timer_blink.c" lastModified="143fcf6a210"/>
+      </target>
+      <target file="stm32f4xx_gpio.o" lastModified="143fcf6b1f5">
+         <source file="..\..\..\cmsis_lib\source\stm32f4xx_gpio.c" lastModified="143f103d666"/>
+      </target>
+      <target file="startup_stm32f4xx.o" lastModified="143fcf6b16d">
+         <source file="..\..\..\cmsis_boot\startup\startup_stm32f4xx.c" lastModified="143f103d66c"/>
+      </target>
+   </processor>
+</history>
